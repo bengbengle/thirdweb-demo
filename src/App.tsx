@@ -16,10 +16,10 @@ export default function Home() {
         </p>
 
         <div className="connect">
-          <ConnectWallet dropdownPosition={{ side: 'bottom', align: 'center' }} />
+          <ConnectWallet btnTitle='连接' dropdownPosition={{ side: 'bottom', align: 'center' }} />
         </div>
 
-        <div className="grid">
+        {/* <div className="grid">
           <a href="https://portal.thirdweb.com/" className="card">
             <h2>Portal &rarr;</h2>
             <p>
@@ -42,7 +42,7 @@ export default function Home() {
               Discover and clone template projects showcasing thirdweb features.
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
     </div>
   );
